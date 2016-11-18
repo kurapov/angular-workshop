@@ -1,0 +1,27 @@
+{
+  "name": "angular-workshop",
+  "version": "1.0.0",
+  "description": "Angular Workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "start": "node server/app.js"
+  },
+  "author": "Stanislav Demydiuk",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "1.5.8",
+    "angular-route": "1.5.8",
+    "bootstrap": "^3.3.6"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "http-server": "^0.9.0",
+    "serve-static": "^1.11.1"
+  }
+}
